@@ -109,20 +109,7 @@ public class VideoPlayer {
       System.out.println("Cannot pause video: No video is currently playing");
     }
   }
-//    if((arr.size()>0)&&(count>0))
-//    {
-//      System.out.println("Video already paused: "+arr.get(0));
-//      return;
-//    }
-//    if(arr.size()>0)
-//    {
-//      System.out.println("Pausing video: "+arr.get(0));
-//      count++;
-//      flag=true;
-//      return;
-   // }
 
-  //}
 
   public void continueVideo() {
     if (arr.size()>0) {
@@ -163,15 +150,7 @@ public class VideoPlayer {
       System.out.print("No video is currently playing");
     }
 
-//          if(video.getTitle()==arr.get(0)&&flag==true) {
-//            System.out.println("Currently playing: " + video.getTitle() + " (" + video.getVideoId() + ") [" + video.getTags().stream().collect(Collectors.joining(" ")) + "]"+ " - PAUSED");
-//            return;
-//          }
-//          if(video.getTitle()==arr.get(0)&&flag==false) {
-//            System.out.print("Currently playing: ");
-//
-//            System.out.println( getVideoString(video)+"/t");
-//          }
+
         }
 
 
