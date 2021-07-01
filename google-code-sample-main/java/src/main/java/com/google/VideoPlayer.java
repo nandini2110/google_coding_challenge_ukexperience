@@ -137,33 +137,11 @@ public class VideoPlayer {
       System.out.println("Cannot continue video: No video is currently playing");
     }
   }
-//    if((count==0)&&(flag==false))
-//    {
-//      System.out.println("Cannot continue video: No video is currently playing");
-//    }
-//    else if((count>0)&&(flag==true))
-//    {
-//      System.out.println("Continuing video: "+arr.get(0));
-//      flag = false;
-//    }
-//    else if((count>0)&&(flag==false))
-//    {
-//      System.out.println("Cannot continue video: Video is not paused");
-//    }
-//    else
-//    {
-//      System.out.println("Cannot continue video: No video is currently playing");
-//    }
- // }
+
 
   public void showPlaying()
   {
 
-    //String videoId = videoLibrary.getVideos().get(0).getVideoId();
-    //Video video = videoLibrary.getVideo(videoId);
-//    if (video == null) {
-//      System.out.println("Cannot play video: Video does not exist");
-//    }
     if(arr.size()>0)
     {
       List<Video> videos= videoLibrary.getVideos();
